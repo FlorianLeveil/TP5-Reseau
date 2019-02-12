@@ -55,20 +55,37 @@
 **Nom de domaine**
 * Client1:
 ```
-
+[root@client ~]# hostname
+client.1
 ```
 * Client2:
 ```
-
+[root@client ~]# hostname
+client.2
 ```
 * Serveur1:
 ```
 [root@serveur ~]# hostname
 serveur.1
 ```
+**Connexion SSH carte réseau enps08**
+* Client1:
+```
+[root@client ~]# hostname
+client.1
+```
+* Client2:
+```
+[root@client ~]# hostname
+client.2
+```
+* Serveur1:
+```
+[root@serveur ~]# hostname
+serveur.1
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMwMzYzOTYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEwNzAzODIxNzgsNzMwOTk4MTE2XX0=
 -->
