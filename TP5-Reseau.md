@@ -219,6 +219,22 @@ S*   0.0.0.0/0 [1/0] via 10.5.12.2
 router2:
 -   Rajouter `net1`
 ```
+routeur2#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 10.5.12.1 to network 0.0.0.0
+
+     10.0.0.0/8 is variably subnetted, 3 subnets, 2 masks
+C       10.5.12.0/30 is directly connected, Ethernet0/1
+C       10.5.2.0/24 is directly connected, Ethernet0/0
+S       10.5.1.0/24 [1/0] via 10.5.12.1
+S*   0.0.0.0/0 [1/0] via 10.5.12.1
 
 ```
 serveur1:
@@ -237,7 +253,7 @@ client2:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDI5ODQxOCw4ODAzNjA1OCwtMTEwNz
-QwMzA5NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbODg5OTgyNjY4LC0zMTAyOTg0MTgsODgwMz
+YwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUwOCwyMDk5NzYwOTQ0
+LDczMDk5ODExNl19
 -->
