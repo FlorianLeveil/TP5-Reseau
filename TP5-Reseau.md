@@ -240,7 +240,9 @@ S*   0.0.0.0/0 [1/0] via 10.5.12.1
 serveur1:
 -   Rajouter `net2`
 ```
-
+[root@serveur ~]# ip route
+10.5.1.0/24 dev enp0s3 proto kernel scope link src 10.5.1.10 metric 100
+192.168.67.0/24 dev enp0s8 proto kernel scope link src 192.168.67.3 metric 101
 ```
 client1:
 -   Rajouter `net2`
@@ -253,7 +255,7 @@ client2:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5OTgyNjY4LC0zMTAyOTg0MTgsODgwMz
-YwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUwOCwyMDk5NzYwOTQ0
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTc4OTE5MzU2NSw4ODk5ODI2NjgsLTMxMD
+I5ODQxOCw4ODAzNjA1OCwtMTEwNzQwMzA5NSwtMTkwMjI3NTA4
+LDIwOTk3NjA5NDQsNzMwOTk4MTE2XX0=
 -->
