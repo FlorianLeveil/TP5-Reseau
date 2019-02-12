@@ -217,7 +217,7 @@ S*   0.0.0.0/0 [1/0] via 10.5.12.2
 
 ```
 router2:
--   Rajouter `net2`
+-   Rajouter `net1`
 ```
 
 ```
@@ -237,7 +237,7 @@ client2:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE5MjM2MzMsODgwMzYwNTgsLTExMD
-c0MDMwOTUsLTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTMxMDI5ODQxOCw4ODAzNjA1OCwtMTEwNz
+QwMzA5NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOTk4MTE2
+XX0=
 -->
