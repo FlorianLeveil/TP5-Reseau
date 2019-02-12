@@ -246,7 +246,7 @@ serveur1:
 192.168.67.0/24 dev enp0s8 proto kernel scope link src 192.168.67.3 metric 101
 ```
 client1:
--   Rajouter `net2`
+-   Rajouter `net1`
 ```
 [root@client network-scripts]# ip route show
 10.5.1.0/24 via 10.5.2.254 dev enp0s3 proto static metric 102
@@ -254,7 +254,7 @@ client1:
 192.168.67.0/24 dev enp0s8 proto kernel scope link src 192.168.67.5 metric 101
 ```
 client2:
--   Rajouter `net2`
+-   Rajouter `net1`
 ```
 [root@client ~]# ip route show
 10.5.1.0/24 via 10.5.2.254 dev enp0s3 proto static metric 102
@@ -262,8 +262,8 @@ client2:
 192.168.67.0/24 dev enp0s8 proto kernel scope link src 192.168.67.4 metric 101
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwOTI1MTUsLTE1OTU0MzU0MDQsMTc4OT
-E5MzU2NSw4ODk5ODI2NjgsLTMxMDI5ODQxOCw4ODAzNjA1OCwt
-MTEwNzQwMzA5NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MDc3OTI5NTcsLTE1OTU0MzU0MDQsMT
+c4OTE5MzU2NSw4ODk5ODI2NjgsLTMxMDI5ODQxOCw4ODAzNjA1
+OCwtMTEwNzQwMzA5NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNz
+MwOTk4MTE2XX0=
 -->
