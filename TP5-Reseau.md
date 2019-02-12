@@ -135,9 +135,11 @@ serveur.1
     inet6 fe80::7d34:91dd:ff58:c240/64 scope link noprefixroute
        valid_lft forever preferred_lft forever
 ```
-
+## Checklist IP Routeurs
+**Définition des IP Statics 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTc2MDk0NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTY1ODk5NzE2MywyMDk5NzYwOTQ0LDczMD
+k5ODExNl19
 -->
