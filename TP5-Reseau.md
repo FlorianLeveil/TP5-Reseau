@@ -50,8 +50,12 @@
     inet6 fe80::a00:27ff:fe87:3f40/64 scope link
        valid_lft forever preferred_lft forever
 ```
+# II. Lancement et configuration du lab
+### Checklist IP VMs
+**2. Création des VMs + Réseau:**
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTg1MTcxNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTU3NTI0OTY4Myw3MzA5OTgxMTZdfQ==
 -->
