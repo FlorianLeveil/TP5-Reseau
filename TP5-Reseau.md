@@ -159,8 +159,19 @@ Ethernet0/3                unassigned      YES unset  administratively down down
 **Définition des Noms de Domaines**
 * Routeur1:
 ```
-
+routeur1#
+routeur1#show startup-config
+Using 887 out of 260088 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname routeur1
 ```
+Routeur1 est devenue routeur2.
+
 * Routeur2:
 ```
 routeur2#
@@ -184,6 +195,6 @@ Routeur2 est devenue routeur2.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODg5MjE4MSwtMTkwMjI3NTA4LDIwOT
-k3NjA5NDQsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTExMDc0MDMwOTUsLTE5MDIyNzUwOCwyMD
+k5NzYwOTQ0LDczMDk5ODExNl19
 -->
