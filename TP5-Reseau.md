@@ -196,11 +196,11 @@ Routeur2 est devenue routeur2.
 
 ## Checklist routes
 router1:
--   directement connecté à  `net1`  et  `net12`
+-   Rajo
 ```
 
 ```
-router1:
+router2:
 -   directement connecté à  `net1`  et  `net12`
 ```
 
@@ -221,7 +221,7 @@ router1:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA1ODgyMDEsODgwMzYwNTgsLTExMD
-c0MDMwOTUsLTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbOTU1NDQyNTcyLDg4MDM2MDU4LC0xMTA3ND
+AzMDk1LC0xOTAyMjc1MDgsMjA5OTc2MDk0NCw3MzA5OTgxMTZd
+fQ==
 -->
