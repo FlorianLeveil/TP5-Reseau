@@ -149,7 +149,12 @@ Ethernet0/3                unassigned      YES unset  administratively down down
 ```
 * Routeur2:
 ```
-
+Routeur2#show ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+Ethernet0/0                unassigned      YES unset  administratively down down
+Ethernet0/1                10.5.1.2        YES manual up                    up
+Ethernet0/2                unassigned      YES unset  administratively down down
+Ethernet0/3                unassigned      YES unset  administratively down down
 ```
 **Définition des Noms de Domaines**
 * Routeur1:
@@ -163,6 +168,6 @@ Ethernet0/3                unassigned      YES unset  administratively down down
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk1NzgwOSwyMDk5NzYwOTQ0LDczMD
+eyJoaXN0b3J5IjpbLTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMD
 k5ODExNl19
 -->
