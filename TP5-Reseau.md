@@ -196,10 +196,32 @@ Routeur2 est devenue routeur2.
 
 ## Checklist routes
 router1:
-
 -   directement connecté à  `net1`  et  `net12`
+```
+
+```
+router1:
+-   directement connecté à  `net1`  et  `net12`
+```
+
+```
+router1:
+-   directement connecté à  `net1`  et  `net12`
+```
+
+```
+router1:
+-   directement connecté à  `net1`  et  `net12`
+```
+
+```
+router1:
+-   directement connecté à  `net1`  et  `net12`
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDQyNTk0Myw4ODAzNjA1OCwtMTEwNz
-QwMzA5NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbLTExODA1ODgyMDEsODgwMzYwNTgsLTExMD
+c0MDMwOTUsLTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODEx
+Nl19
 -->
