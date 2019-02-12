@@ -196,32 +196,48 @@ Routeur2 est devenue routeur2.
 
 ## Checklist routes
 router1:
--   Rajo
+-   Rajouter `net2`
 ```
+routeur1#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 10.5.12.2 to network 0.0.0.0
+
+     10.0.0.0/8 is variably subnetted, 3 subnets, 2 masks
+C       10.5.12.0/30 is directly connected, Ethernet0/1
+S       10.5.2.0/24 [1/0] via 10.5.12.2
+C       10.5.1.0/24 is directly connected, Ethernet0/0
+S*   0.0.0.0/0 [1/0] via 10.5.12.2
 
 ```
 router2:
--   directement connecté à  `net1`  et  `net12`
+-   Rajouter `net2`
 ```
 
 ```
-router1:
--   directement connecté à  `net1`  et  `net12`
+serveur1:
+-   Rajouter `net2`
 ```
 
 ```
-router1:
--   directement connecté à  `net1`  et  `net12`
+client1:
+-   Rajouter `net2`
 ```
 
 ```
-router1:
--   directement connecté à  `net1`  et  `net12`
+client2:
+-   Rajouter `net2`
 ```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1NDQyNTcyLDg4MDM2MDU4LC0xMTA3ND
-AzMDk1LC0xOTAyMjc1MDgsMjA5OTc2MDk0NCw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTEyNzE5MjM2MzMsODgwMzYwNTgsLTExMD
+c0MDMwOTUsLTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODEx
+Nl19
 -->
