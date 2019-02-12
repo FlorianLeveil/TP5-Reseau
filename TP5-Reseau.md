@@ -136,10 +136,33 @@ serveur.1
        valid_lft forever preferred_lft forever
 ```
 ## Checklist IP Routeurs
-**Définition des IP Statics 
+**Définition des IP Statiques**
+* Routeur1:
+```
+routeur1#show ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+Ethernet0/0                unassigned      YES unset  administratively down down
+Ethernet0/1                10.5.1.1        YES manual up                    up
+Ethernet0/2                unassigned      YES unset  administratively down down
+Ethernet0/3                unassigned      YES unset  administratively down down
+
+```
+* Routeur2:
+```
+
+```
+**Définition des Noms de Domaines**
+* Routeur1:
+```
+
+```
+* Routeur2:
+```
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODk5NzE2MywyMDk5NzYwOTQ0LDczMD
+eyJoaXN0b3J5IjpbLTE4Njk1NzgwOSwyMDk5NzYwOTQ0LDczMD
 k5ODExNl19
 -->
