@@ -51,11 +51,24 @@
        valid_lft forever preferred_lft forever
 ```
 # II. Lancement et configuration du lab
-### Checklist IP VMs
-**2. Création des VMs + Réseau:**
+## Checklist IP VMs
+**Nom de domaine**
+* Client1:
+```
+
+```
+* Client2:
+```
+
+```
+* Serveur1:
+```
+[root@serveur ~]# hostname
+serveur.1
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTI0OTY4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDMwMzYzOTYsNzMwOTk4MTE2XX0=
 -->
