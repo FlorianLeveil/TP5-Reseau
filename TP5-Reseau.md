@@ -163,11 +163,27 @@ Ethernet0/3                unassigned      YES unset  administratively down down
 ```
 * Routeur2:
 ```
+routeur2#
+*Mar  1 00:42:37.815: %SYS-5-CONFIG_I: Configured from console by console
+routeur2#copy running-config startup-config
+Destination filename [startup-config]?
+Building configuration...
+[OK]
+routeur2#show startup-config
+Using 887 out of 260088 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname routeur2
 
 ```
+Routeur2 est devenue routeur2.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMTkxODg5MjE4MSwtMTkwMjI3NTA4LDIwOT
+k3NjA5NDQsNzMwOTk4MTE2XX0=
 -->
