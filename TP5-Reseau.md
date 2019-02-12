@@ -256,10 +256,14 @@ client1:
 client2:
 -   Rajouter `net2`
 ```
-
+[root@client ~]# ip route show
+10.5.1.0/24 via 10.5.2.254 dev enp0s3 proto static metric 102
+10.5.2.0/24 dev enp0s3 proto kernel scope link src 10.5.2.11 metric 102
+192.168.67.0/24 dev enp0s8 proto kernel scope link src 192.168.67.4 metric 101
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU0MzU0MDQsMTc4OTE5MzU2NSw4OD
-k5ODI2NjgsLTMxMDI5ODQxOCw4ODAzNjA1OCwtMTEwNzQwMzA5
-NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjkwOTI1MTUsLTE1OTU0MzU0MDQsMTc4OT
+E5MzU2NSw4ODk5ODI2NjgsLTMxMDI5ODQxOCw4ODAzNjA1OCwt
+MTEwNzQwMzA5NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOT
+k4MTE2XX0=
 -->
