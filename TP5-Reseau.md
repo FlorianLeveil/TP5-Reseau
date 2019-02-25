@@ -362,8 +362,9 @@ enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP gro
        valid_lft forever preferred_lft forever
 ```
 # IV. Bonus
+## 1. Installer un serveur web
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY5NTg5NDYsMTI1ODI0NjkxLC04NT
+eyJoaXN0b3J5IjpbLTIxMDQ1MDczNjgsMTI1ODI0NjkxLC04NT
 c4MjExNTEsMzUwMTgzODUsMjA2Mjc5MTAzOSw1NDk5NTY0MTEs
 LTE0MDc3OTI5NTcsLTE1OTU0MzU0MDQsMTc4OTE5MzU2NSw4OD
 k5ODI2NjgsLTMxMDI5ODQxOCw4ODAzNjA1OCwtMTEwNzQwMzA5
