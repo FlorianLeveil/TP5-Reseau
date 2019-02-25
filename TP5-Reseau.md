@@ -283,13 +283,15 @@ PING server1.tp5.b1 (10.5.1.10) 56(84) bytes of data.
 hostname dhcp-net2.tp5.b1
 ```
 ### 2. Installer le serveur DHCP
--   éteindre la VM dans GNS3 F
+-   éteindre la VM dans GNS3
 -   ouvrir VirtualBox
 -   ajouter une troisième carte en NAT à la VM
 -   démarrer la VM dans VirtualBox
-
+```
+[root@dhcp-net2 ~]# yum install -y dhcp
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTY4MDE2MiwtODU3ODIxMTUxLDM1MD
+eyJoaXN0b3J5IjpbMjExOTMzMTA5OSwtODU3ODIxMTUxLDM1MD
 E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
 LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
 AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
