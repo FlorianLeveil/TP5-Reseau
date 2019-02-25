@@ -375,10 +375,10 @@ sudo systemctl start nginx
 [root@client ~]# curl server1.tp5.b1 > curl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  3700  100  3700    0     0  15210      0 --:--:-- --:--:-- --:--:-- 1552
+100  3700  100  3700    0     0  16015      0 --:--:-- --:--:-- --:--:-- 12458
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNDM5NzE0LDkyMDY5MTgwNywxMjU4Mj
+eyJoaXN0b3J5IjpbNzE5NTE1MTgzLDkyMDY5MTgwNywxMjU4Mj
 Q2OTEsLTg1NzgyMTE1MSwzNTAxODM4NSwyMDYyNzkxMDM5LDU0
 OTk1NjQxMSwtMTQwNzc5Mjk1NywtMTU5NTQzNTQwNCwxNzg5MT
 kzNTY1LDg4OTk4MjY2OCwtMzEwMjk4NDE4LDg4MDM2MDU4LC0x
