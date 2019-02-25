@@ -266,18 +266,18 @@ Client1 > Serveur1
 ```
 ping server1.tp5.b1
 PING server1.tp5.b1 (10.5.1.10) 56(84) bytes of data.
-64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=27.5 ms
+64 bytes from server1.tp5.b1 (10.5.1.10): icmp_seq=2 ttl=62 time=27.5 ms
 ```
 Client2 > Serveur1
 ```
-ping server1
-PING server1 (10.5.1.10) 56(84) bytes of data.
-64 bytes from server1 (10.5.1.10): icmp_seq=1 ttl=62 time=31.5 ms
-64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=24.3 ms
+ping server1.tp5.b1
+PING server1.tp5.b1 (10.5.1.10) 56(84) bytes of data.
+64 bytes from server1.tp5.b1 (10.5.1.10): icmp_seq=1 ttl=62 time=31.5 ms
+64 bytes from server1.tp5.b1 (10.5.1.10): icmp_seq=2 ttl=62 time=24.3 ms
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NTQyODk0LDU0OTk1NjQxMSwtMTQwNz
-c5Mjk1NywtMTU5NTQzNTQwNCwxNzg5MTkzNTY1LDg4OTk4MjY2
-OCwtMzEwMjk4NDE4LDg4MDM2MDU4LC0xMTA3NDAzMDk1LC0xOT
-AyMjc1MDgsMjA5OTc2MDk0NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTkxMDU4MDAwNiw1NDk5NTY0MTEsLTE0MD
+c3OTI5NTcsLTE1OTU0MzU0MDQsMTc4OTE5MzU2NSw4ODk5ODI2
+NjgsLTMxMDI5ODQxOCw4ODAzNjA1OCwtMTEwNzQwMzA5NSwtMT
+kwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOTk4MTE2XX0=
 -->
