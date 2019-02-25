@@ -262,10 +262,21 @@ client2:
 192.168.67.0/24 dev enp0s8 proto kernel scope link src 192.168.67.4 metric 101
 ```
 ### Teste:
+Client1 > Serveur1
+```
 
+ping server1
+PING server1 (10.5.1.10) 56(84) bytes of data.
+64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=29.5 ms
+```
+```
+Client2 > Serveur1
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5OTU2NDExLC0xNDA3NzkyOTU3LC0xNT
-k1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMTAyOTg0
-MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUwOCwyMD
-k5NzYwOTQ0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzIzNjQ3Mjg4LDU0OTk1NjQxMSwtMTQwNz
+c5Mjk1NywtMTU5NTQzNTQwNCwxNzg5MTkzNTY1LDg4OTk4MjY2
+OCwtMzEwMjk4NDE4LDg4MDM2MDU4LC0xMTA3NDAzMDk1LC0xOT
+AyMjc1MDgsMjA5OTc2MDk0NCw3MzA5OTgxMTZdfQ==
 -->
