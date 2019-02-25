@@ -264,17 +264,20 @@ client2:
 ### Teste:
 Client1 > Serveur1
 ```
-ping server1
-PING server1 (10.5.1.10) 56(84) bytes of data.
+ping server1.tp5.b1
+PING server1.tp5.b1 (10.5.1.10) 56(84) bytes of data.
 64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=27.5 ms
 ```
 Client2 > Serveur1
 ```
-
+ping server1
+PING server1 (10.5.1.10) 56(84) bytes of data.
+64 bytes from server1 (10.5.1.10): icmp_seq=1 ttl=62 time=31.5 ms
+64 bytes from server1 (10.5.1.10): icmp_seq=2 ttl=62 time=24.3 ms
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY4NDIxNDIsNTQ5OTU2NDExLC0xND
-A3NzkyOTU3LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgy
-NjY4LC0zMTAyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLT
-E5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODQ4NTQyODk0LDU0OTk1NjQxMSwtMTQwNz
+c5Mjk1NywtMTU5NTQzNTQwNCwxNzg5MTkzNTY1LDg4OTk4MjY2
+OCwtMzEwMjk4NDE4LDg4MDM2MDU4LC0xMTA3NDAzMDk1LC0xOT
+AyMjc1MDgsMjA5OTc2MDk0NCw3MzA5OTgxMTZdfQ==
 -->
