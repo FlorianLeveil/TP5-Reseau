@@ -370,10 +370,18 @@ sudo firewall-cmd --add-port=80/tcp --permanent
 sudo firewall-cmd --reload
 sudo systemctl start nginx
 ```
+* Teste:
+```
+[root@client ~]# curl server1.tp5.b1 > curl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3700  100  3700    0     0  15210      0 --:--:-- --:--:-- --:--:-- 1552
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNjkxODA3LDEyNTgyNDY5MSwtODU3OD
-IxMTUxLDM1MDE4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0x
-NDA3NzkyOTU3LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OT
-gyNjY4LC0zMTAyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUs
-LTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTIxNDM5NzE0LDkyMDY5MTgwNywxMjU4Mj
+Q2OTEsLTg1NzgyMTE1MSwzNTAxODM4NSwyMDYyNzkxMDM5LDU0
+OTk1NjQxMSwtMTQwNzc5Mjk1NywtMTU5NTQzNTQwNCwxNzg5MT
+kzNTY1LDg4OTk4MjY2OCwtMzEwMjk4NDE4LDg4MDM2MDU4LC0x
+MTA3NDAzMDk1LC0xOTAyMjc1MDgsMjA5OTc2MDk0NCw3MzA5OT
+gxMTZdfQ==
 -->
