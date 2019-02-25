@@ -321,9 +321,25 @@ option broadcast-address 10.5.2.255;
 ```
 [root@dhcp-net2 ~]# systemctl start dhcpd
 ```
+Verification:
 
+[root@dhcp-net2 ~]# systemctl status dhcpd -l
+● dhcpd.service - DHCPv4 Server Daemon
+   Loaded: loaded (/usr/lib/systemd/system/dhcpd.service; enabled; vendor preset: disabled)
+   Active: active (running) since mer. 2019-02-20 17:27:20 CET; 2min 48s ago
+     Docs: man:dhcpd(8)
+           man:dhcpd.conf(5)
+ Main PID: 3881 (dhcpd)
+   Status: "Dispatching packets..."
+   CGroup: /system.slice/dhcpd.service
+           └─3881 /usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.conf -user dhcpd -group dhcpd --no-pid
+
+févr. 20 17:27:20 dhcp-net2.tp5.b1 dhcpd[3881]: Listening on LPF/eth0/00:50:00:00:05:00/10.5.2.0/24
+févr. 20 17:27:20 dhcp-net2.tp5.b1 dhcpd[3881]: Sending on   LPF/eth0/00:50:00:00:05:00/10.5.2.0/24
+févr. 20 17:27:20 dhcp-net2.tp5.b1 dhcpd[3881]: Sending on   Socket/fallback/fallback-net
+févr. 20 17:27:20 dhcp-net2.tp5.b1 systemd[1]: Started DHCPv4 Server Daemon.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTgyNjgyMywtODU3ODIxMTUxLDM1MD
+eyJoaXN0b3J5IjpbMTIwNzM4MDYyNywtODU3ODIxMTUxLDM1MD
 E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
 LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
 AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
