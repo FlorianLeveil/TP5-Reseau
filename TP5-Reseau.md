@@ -292,10 +292,35 @@ hostname dhcp-net2.tp5.b1
 ```
 ### 4. Configuration du serveur DHCP
 
+Dans le fichier `sudo nano /etc/dhcp/dhcpd.conf` de dhcp-net2 :
+```
+# dhcpd.conf
+# option definitions common to all supported networks
+
+option domain-name "tp5.b1";
+default-lease-time 600;
+max-lease-time 7200;
+
+# If this DHCP server is the official DHCP server for the local
+# network, the authoritative directive should be uncommented.
+
+authoritative;
+
+# Use this to send dhcp log messages to a different log file (you also
+# have to hack syslog.conf to complete the redirection).
+
+log-facility local7;
+subnet 10.5.2.0 netmask 255.255.255.0 {
+range 10.5.2.50 10.5.2.70;
+option domain-name "tp5.b1";
+option routers 10.5.2.254;
+option broadcast-address 10.5.2.255;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE2MTE3MjIsLTg1NzgyMTE1MSwzNT
-AxODM4NSwyMDYyNzkxMDM5LDU0OTk1NjQxMSwtMTQwNzc5Mjk1
-NywtMTU5NTQzNTQwNCwxNzg5MTkzNTY1LDg4OTk4MjY2OCwtMz
-EwMjk4NDE4LDg4MDM2MDU4LC0xMTA3NDAzMDk1LC0xOTAyMjc1
-MDgsMjA5OTc2MDk0NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM5NDAzNjEzMiwtODU3ODIxMTUxLDM1MD
+E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
+LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
+AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
+OCwyMDk5NzYwOTQ0LDczMDk5ODExNl19
 -->
