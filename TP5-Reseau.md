@@ -283,11 +283,15 @@ PING server1.tp5.b1 (10.5.1.10) 56(84) bytes of data.
 hostname dhcp-net2.tp5.b1
 ```
 ### 2. Installer le serveur DHCP
+-   éteindre la VM dans GNS3 F
+-   ouvrir VirtualBox
+-   ajouter une troisième carte en NAT à la VM
+-   démarrer la VM dans VirtualBox
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzgyMTE1MSwzNTAxODM4NSwyMDYyNz
-kxMDM5LDU0OTk1NjQxMSwtMTQwNzc5Mjk1NywtMTU5NTQzNTQw
-NCwxNzg5MTkzNTY1LDg4OTk4MjY2OCwtMzEwMjk4NDE4LDg4MD
-M2MDU4LC0xMTA3NDAzMDk1LC0xOTAyMjc1MDgsMjA5OTc2MDk0
-NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU2OTY4MDE2MiwtODU3ODIxMTUxLDM1MD
+E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
+LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
+AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
+OCwyMDk5NzYwOTQ0LDczMDk5ODExNl19
 -->
