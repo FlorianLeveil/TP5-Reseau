@@ -317,8 +317,13 @@ option routers 10.5.2.254;
 option broadcast-address 10.5.2.255;
 }
 ```
+### 5. Démarrer le serveur DHCP
+```
+[root@dhcp-net2 ~]# systemctl start dhcpd
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDAzNjEzMiwtODU3ODIxMTUxLDM1MD
+eyJoaXN0b3J5IjpbLTUzMTgyNjgyMywtODU3ODIxMTUxLDM1MD
 E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
 LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
 AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
