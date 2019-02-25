@@ -352,11 +352,20 @@ DEVICE=enp0s3
 BOOTPROTO=dhcp
 ONBOOT=yes
 ```
-* ``
+* `ip a`:
+```
+enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:35:66:94 brd ff:ff:ff:ff:ff:ff
+    inet 10.5.2.50/24 brd 10.5.2.255 scope global noprefixroute dynamic enp0s3
+       valid_lft 598sec preferred_lft 598sec
+    inet6 fe80::a00:27ff:fe35:6694/64 scope link
+       valid_lft forever preferred_lft forever
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDY5MTY1NSwtODU3ODIxMTUxLDM1MD
-E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
-LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
-AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
-OCwyMDk5NzYwOTQ0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTI1ODI0NjkxLC04NTc4MjExNTEsMzUwMT
+gzODUsMjA2Mjc5MTAzOSw1NDk5NTY0MTEsLTE0MDc3OTI5NTcs
+LTE1OTU0MzU0MDQsMTc4OTE5MzU2NSw4ODk5ODI2NjgsLTMxMD
+I5ODQxOCw4ODAzNjA1OCwtMTEwNzQwMzA5NSwtMTkwMjI3NTA4
+LDIwOTk3NjA5NDQsNzMwOTk4MTE2XX0=
 -->
