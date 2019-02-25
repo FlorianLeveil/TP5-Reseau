@@ -282,9 +282,10 @@ PING server1.tp5.b1 (10.5.1.10) 56(84) bytes of data.
 [root@client ~]# nano /etc/hostname
 hostname dhcp-net2.tp5.b1
 ```
-2. Installer le serveur DHCP**
+### 2. Installer le serveur DHCP
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzU2NDY1NiwzNTAxODM4NSwyMDYyNz
+eyJoaXN0b3J5IjpbLTg1NzgyMTE1MSwzNTAxODM4NSwyMDYyNz
 kxMDM5LDU0OTk1NjQxMSwtMTQwNzc5Mjk1NywtMTU5NTQzNTQw
 NCwxNzg5MTkzNTY1LDg4OTk4MjY2OCwtMzEwMjk4NDE4LDg4MD
 M2MDU4LC0xMTA3NDAzMDk1LC0xOTAyMjc1MDgsMjA5OTc2MDk0
