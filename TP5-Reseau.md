@@ -363,10 +363,17 @@ enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP gro
 ```
 # IV. Bonus
 ## 1. Installer un serveur web
+* Sur le Serveur1:
+```
+sudo yum install -y nginx
+sudo firewall-cmd --add-port=80/tcp --permanent
+sudo firewall-cmd --reload
+sudo systemctl start nginx
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ1MDczNjgsMTI1ODI0NjkxLC04NT
-c4MjExNTEsMzUwMTgzODUsMjA2Mjc5MTAzOSw1NDk5NTY0MTEs
-LTE0MDc3OTI5NTcsLTE1OTU0MzU0MDQsMTc4OTE5MzU2NSw4OD
-k5ODI2NjgsLTMxMDI5ODQxOCw4ODAzNjA1OCwtMTEwNzQwMzA5
-NSwtMTkwMjI3NTA4LDIwOTk3NjA5NDQsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTIwNjkxODA3LDEyNTgyNDY5MSwtODU3OD
+IxMTUxLDM1MDE4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0x
+NDA3NzkyOTU3LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OT
+gyNjY4LC0zMTAyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUs
+LTE5MDIyNzUwOCwyMDk5NzYwOTQ0LDczMDk5ODExNl19
 -->
