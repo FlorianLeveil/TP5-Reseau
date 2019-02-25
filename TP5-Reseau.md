@@ -323,6 +323,7 @@ option broadcast-address 10.5.2.255;
 ```
 Verification:
 
+```
 [root@dhcp-net2 ~]# systemctl status dhcpd -l
 ● dhcpd.service - DHCPv4 Server Daemon
    Loaded: loaded (/usr/lib/systemd/system/dhcpd.service; enabled; vendor preset: disabled)
@@ -338,8 +339,22 @@ févr. 20 17:27:20 dhcp-net2.tp5.b1 dhcpd[3881]: Listening on LPF/eth0/00:50:00:
 févr. 20 17:27:20 dhcp-net2.tp5.b1 dhcpd[3881]: Sending on   LPF/eth0/00:50:00:00:05:00/10.5.2.0/24
 févr. 20 17:27:20 dhcp-net2.tp5.b1 dhcpd[3881]: Sending on   Socket/fallback/fallback-net
 févr. 20 17:27:20 dhcp-net2.tp5.b1 systemd[1]: Started DHCPv4 Server Daemon.
+```
+### 6. Faire un test
+Sur client1 :
+
+-   IP dynamique  `sudo nano /etc/sysconfig/network-scripts/ifcfg-enp0s3`
+
+```
+NAME=enp0s3
+DEVICE=enp0s3
+
+BOOTPROTO=dhcp
+ONBOOT=yes
+```
+* ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzM4MDYyNywtODU3ODIxMTUxLDM1MD
+eyJoaXN0b3J5IjpbMTkyNDY5MTY1NSwtODU3ODIxMTUxLDM1MD
 E4Mzg1LDIwNjI3OTEwMzksNTQ5OTU2NDExLC0xNDA3NzkyOTU3
 LC0xNTk1NDM1NDA0LDE3ODkxOTM1NjUsODg5OTgyNjY4LC0zMT
 AyOTg0MTgsODgwMzYwNTgsLTExMDc0MDMwOTUsLTE5MDIyNzUw
